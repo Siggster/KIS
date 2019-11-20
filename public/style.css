@@ -1,0 +1,117 @@
+
+
+#container {
+  display: flex;
+  
+  height: 100vh;
+  flex-direction: row;
+  background: linear-gradient(209deg, #f6f7eb, #1c5253);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 43s ease infinite;
+-moz-animation: AnimationName 43s ease infinite;
+animation: AnimationName 43s ease infinite;
+}
+
+#title {
+
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-family: "Open Sans Light";
+  font-size: 50px;
+  color: #f6f7eb;
+}
+#leftContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 70%;
+  align-items: center;
+}
+#rightContainer {
+  display: flex;
+  align-items: top;
+  width: 30%;
+}
+
+#brief {
+  
+  margin: 10px;
+  padding: 5px;
+  width: 70%;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+#clock {
+ 
+  margin: 10px;
+  padding: 5px;
+  width: 30%;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+#message-input {
+  align-self: flex-end;
+  width: 100%;
+  font-size: 15px;
+}
+
+#writeArea {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+}
+
+#send-container {
+  flex-direction: column;
+}
+
+#briefANDclock {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-top: 50px;
+  padding: 5px;
+  width: 80%;
+}
+
+#tableUsers {
+  width: 200px;
+  margin-top: 80px;
+}
+
+td {
+  border: solid 2px lightgrey;
+}
+
+th {
+  border: solid 2px lightgrey;
+}
+
+#countdown {
+  
+  color: #1c5253;
+  font-family: "Open Sans"
+  font-size: 50px;
+}
+
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+#send-button {
+  margin-top: 20px; 
+  margin-right: 20px;
+}
+
+#mixButton {
+  margin-top: 20px; 
+  
+}

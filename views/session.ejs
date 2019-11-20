@@ -1,0 +1,43 @@
+<% include header %>
+<body>
+ 
+  <div id="container"> 
+   
+    <div id="leftContainer">
+      <h1 id="title"><%= session_name %></h1>
+      <div id="briefANDclock">
+        <div id="brief" class="card shadow-textarea">
+          <p class="card-body"><%= session_brief %></p>
+        </div>
+        
+        <div id="clock" class="card shadow-textarea">
+          <p id = countdown class="card-body"> Click button to start time</p>
+          <button id ="mixButton" class="btn btn-light btn-lg">start</button>
+        </div>
+      </div>
+      <!--<div id="message-container"></div>
+      <form id="send-container">
+        <!--<div id="content-container">
+          <textarea id="ide"></textarea>
+        </div> -->
+      <div id="writeArea">
+        <form id="send-container" class="form-group shadow-textarea">
+          <textarea id="message-input" class="form-control z-depth-1"  cols="30" rows="10" placeholder="Start Writing here.."></textarea>
+          <button type="submit" id="send-button" class="btn btn-light btn-lg">Send</button> 
+        </form> 
+      </div>
+        
+    </div>
+    <div id="rightContainer">
+      <table id="tableUsers" class="table table-dark">
+        <tr id="tr1">
+          <th>User:</th>
+          <th>Status:</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script defer src="/script.js"></script>
+</body>
+
+<% include footer %>
